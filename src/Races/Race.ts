@@ -1,5 +1,5 @@
 export default abstract class Race {
-  protected _name: string;
+  private _name: string;
   private _dexterity: number;
 
   constructor(name: string, dexterity: number) {
